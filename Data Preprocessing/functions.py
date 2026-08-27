@@ -1,0 +1,44 @@
+#SEABORN
+
+import numpy as np
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt 
+
+# tips = sns.load_dataset("tips")
+# #print(tips.head())
+
+# #Visualize the data
+# sns.set_theme()
+# sns.relplot(data = tips, x = 'total_bill', y='tip', col='time', hue='smoker', style = 'smoker', size='size')
+# plt.show()
+
+# #load new dataset
+# iris = sns.load_dataset("iris")
+# #print(iris.head())
+
+# #using scatter plot
+# sns.scatterplot(x='sepal_length', y='petal_width', hue='species', data=iris)
+# plt.show()
+
+#loading titanic dataset
+#titanic = sns.load_dataset("titanic")
+#print(titanic.shape)
+
+#sns.countplot(x = 'class', data=titanic, )
+#plt.show()
+ 
+
+#Scikit learn 
+# from sklearn.datasets import fetch_california_housing 
+# housing = fetch_california_housing()
+
+# house = pd.DataFrame(housing.data, columns=housing.feature_names)
+# house['PRICE'] = housing.target
+
+# print(house.head())
+
+# sns.displot(house['PRICE'])
+# plt.show()
+
+#PANDAS 
